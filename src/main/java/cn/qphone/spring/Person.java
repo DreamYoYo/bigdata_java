@@ -1,4 +1,4 @@
-package cn.qhone.spring;
+package cn.qphone.spring;
 
 public abstract class Person {
     private String name;
