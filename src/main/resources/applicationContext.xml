@@ -11,15 +11,15 @@
      -->
     <!--<bean id="c1" class="cn.qphone.spring.Chinese" />--><!-- 默认使用的无参构造创建对象 -->
     <bean id="c1" class="cn.qphone.spring.Chinese">
-        <constructor-arg name="name" value="mike"/>
-        <constructor-arg name="age" value="22"/>
+        <constructor-arg name="name" value="程志远"/>
+        <constructor-arg name="age" value="32"/>
         <constructor-arg name="feature" value="帅"/>
     </bean>
 
     <bean id="c2" class="cn.qphone.spring.Chinese">
-        <property name="name" value="lucy" />
-        <property name="age" value="18" />
-        <property name="feature" value="白富美" />
+        <property name="name" value="李洪良" />
+        <property name="age" value="38" />
+        <property name="feature" value="高富帅" />
     </bean>
 
     <!--2. 使用对象工厂方式创建chinese-->

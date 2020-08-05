@@ -1,10 +1,9 @@
-package cn.qphone.spring.di.dao.impl;
+package cn.qphone.spring.simulation.dao.impl;
 
-import cn.qphone.spring.di.dao.UserDao;
 import cn.qphone.spring.ioc.User;
+import cn.qphone.spring.simulation.dao.UserDao;
 import org.springframework.stereotype.Repository;
 
-@Repository
 public class UserDaoImpl implements UserDao {
     public User get(int id) {
         User user = new User();
